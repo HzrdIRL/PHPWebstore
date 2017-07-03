@@ -1,0 +1,466 @@
+/*Stylesheet - s3380365 - s3309248*/
+/*date last edited: 28-08-14*/
+
+
+/*known errors:
+
+*/
+
+/*latest changes:
+	-re-arranged/ re indented CSS structures
+	->changed the width attributes for the divs (they have been commented out and replaced with percentages)
+	-changed size of input.quantity and input.addcart to pixels, from percentage
+*/
+
+/*global formatting*/
+body
+{
+	/*background-image:url('../images/test.png');*/
+	background-color:#c41e3a;
+	margin: auto; /*center div*/
+	background-size:cover;
+}
+
+/*form formatting*/
+
+label
+{
+	
+	clear:left;
+	display:block;
+	float:left;
+	margin:0 0 1em 0.5em;
+	padding:0 0.5em 0 0;
+	text-align:left;
+	width:6em;
+	font-weight:bold;
+}
+
+input
+{
+	float:left;
+	width:70%;
+	margin: 0 0.5em 1em 1.5em;
+}
+
+textarea
+{
+	float:left;
+	width:70%;
+	height:150px;
+	max-height:50%;
+	margin: 0 0.5em 1em 1.5em;
+	resize:none;
+}
+
+select
+{
+	float:left;
+	margin: 0 0.5em 1em 1.5em;
+	width:70%;
+}
+
+/*hyperlink formatting*/
+
+a:link
+{
+	color: #E60000;
+}
+
+a:visited
+{
+	color: #D10000;
+}
+
+a:hover
+{
+	color: #FFFFFF;
+}
+
+legend
+{
+	font-weight:bold;
+}
+
+/*div styling*/
+ #wrapper
+ {
+	width:80%; /* formatting for all monitors */
+	margin: auto; /*center div*/
+	position: relative;
+	background-color:#C41E3A;
+	max-width:1000px;
+
+}
+
+#masthead 
+{
+	text-align: center;
+	margin: auto;
+	padding-top:1em;
+}
+
+#nav
+{
+	background-color:rgba(0, 0, 0, 0.5);
+	text-align:center;
+	padding-top:0.5em;
+	padding-bottom:0.6em;
+	margin:auto;
+	border-radius:12px 12px 0px 0px;/*routed corners*/
+	font-size:2.5vh;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#content
+{
+	padding:0.5em 0 0 0;
+	font: Verdana, Arial, Helvetica, sans-serif ;
+	background-color:rgba(0, 0, 0, 0.3);
+	margin:auto;
+	text-align:center;
+	letter-spacing:1px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14pt;
+   min-height:600px;
+}
+
+
+#sitemap
+{
+background-color:white;
+
+	text-align:center;
+	height:100px;
+	color:black;
+	clear:both; /*pushes footer to bottom*/
+	padding-top:0.1em;
+	padding-bottom:0.1em;
+	width:800px;
+}
+
+
+#footer
+{
+	background-color:rgba(0, 0, 0, 0.5);
+	/*background-color:#393939;*/
+	text-align:center;
+	height:50px;
+	color:white;
+	clear:both; /*pushes footer to bottom*/
+	text-align:center;
+	padding-top:0.5em;
+	margin:auto;
+	font-size:14pt;
+	border-radius:0px 0px 12px 12px;/*routed corners*/
+   	padding-bottom:2em;
+}
+
+#gallery img
+{
+	border-radius:12px;
+	width:150px;
+	height:150px;
+	padding:0.1em 0.5em 0.1em 0.1em;   
+	display:inline;
+}
+
+#gallery
+{
+	display:block;
+	width:80%;
+	height:615px;
+	border:none;
+	margin:auto;
+	overflow:hidden;
+	padding-bottom:0.5em;
+}
+/*contact us section*/
+
+
+#gmap_canvas
+{
+	height:400px;
+	clear:both;
+	margin:auto;
+	overflow:hidden;
+}
+
+#gmap_canvas img
+{
+	max-width:none!important;
+	background:none!important;
+}
+
+
+input.totalPrice
+{
+	float:left;
+	width:30%;
+	margin: 0 0.5em 1em 1.5em;
+}
+
+/*classes*/
+.form
+{
+	margin:auto;
+	text-align:left;
+	color:white;
+	font-size:14pt;
+	width:570px;
+	max-width:100%;
+}
+/*text styling*/
+.title
+{
+	background-image:url('../images/title-back.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:300pt;
+	color:white;
+	opacity:1;
+	text-align:center;
+	font-family: 'Indie Flower', cursive;
+	font-size:20pt;
+}
+
+p.content
+{
+	width:600px;
+	
+}
+
+.content{
+	text-align:left;
+	color:white;
+	width:600px;
+	margin:auto;
+}
+
+/*other object styling*/
+.nav
+{
+   padding:3px 10px 3px 10px;
+   text-align:center;
+   background-color:#C41E3A;
+   border-radius:2px;
+   margin:5px;
+   box-shadow:5px 5px 2px #550000;
+   font-family: 'Indie Flower', cursive;
+}
+a.nav
+{
+	color:white;
+}
+a.nav:hover
+{
+	background-color:white;
+	color:black;
+}
+
+.banner
+{
+	height:150px;
+}
+
+.instagram-placeholder
+{
+	display:inline;
+}
+
+p.prompt
+{
+   color:white;
+   text-align:center;
+   font-size:14pt;
+}
+
+.actionButtons
+{
+	left:0;
+	right:0;
+	width:25%;
+}
+
+p.totalPrice
+{
+	margin-top:0;
+	padding-left:0.5em;
+}
+
+label.totalPrice
+{
+	margin-top:0;
+}
+
+label.hidinfo
+{
+	color:white;
+	text-align:center;
+	clear:left;
+	clear:right;
+	float:left;
+}
+
+
+.targetdiv
+{
+	margin:auto;
+	width:600px;
+	max-width:80%;
+}
+
+.photo
+{
+float:left;
+height:150px;
+width:150px;
+border-radius:12px;
+}
+
+.filmSelect
+{
+   margin: auto;
+	width:150px;
+   clear:both;
+   float:none;
+   margin-bottom:20px;
+}
+
+.MS-film
+{
+   max-width: 500px;
+   max-height: 700px;
+   min-width: 450px;
+   height: auto;
+   margin:auto;
+   margin-top:10px;
+   border: 3px solid #E8E8E8;
+   border-radius:12px;
+   overflow: visible;
+   color:white;
+}
+
+.MS-image {
+width: auto;
+height: auto;
+float: left;
+margin-top:20px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:0px;
+}
+
+.MS-title {
+font-size: 20pt;
+width: 90%;
+text-align: left;
+margin-top: 15px;
+}
+
+.MS-description {
+width: auto;
+text-align: left;
+height: 80%;
+margin: 10px;
+font-size: 12pt;
+}
+
+.MS-rating {
+padding-left: 10px;
+padding-bottom:10px;
+height: auto;
+text-align:center;
+}
+
+p.hidinfo
+{
+color:white;
+max-width:450px;
+display:inline;
+}
+
+p.hidinfo
+{
+color:white;
+max-width:450px;
+display:inline;
+}
+
+table.hidden
+{
+margin:auto;
+}
+
+img.products
+{
+padding:3px;
+max-height:200px;
+max-width:200px;
+display:inline;
+border-radius:12px;
+}
+
+img.products:hover
+{
+opacity: 0.8;
+background-color:white;
+
+}
+
+table.products
+{
+	text-align:center;
+	margin:auto;
+	width:70%;
+}
+input.quantity
+{
+	width:50%;
+
+}
+input.addcart
+ {
+	float:left;
+	font-size:14px;
+ }
+
+input.checkbox
+{
+
+}
+
+table.order
+{
+	float:left;
+	width:70%;
+	margin: 0 0em 0em 0.5em;
+}
+
+label.product
+{
+
+}
+
+.carttable
+{
+	text-align:center;
+	margin:auto;
+	padding:4px;
+	width:70%;
+	color:white;
+	border: 1px solid white;
+	border-radius:12px;
+}
+th.carttable
+{
+border: 1px solid white;
+}
+
+p.total
+{
+	margin-top:0;
+	padding-left:0.5em;
+	color:white;
+}
